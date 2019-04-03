@@ -288,7 +288,7 @@ function clone (value) {
 
 // the starting route that represents the initial state
 var START = createRoute(null, {
-  path: '/'
+  path: '/', name: '/'
 });
 
 function formatMatch (record) {
